@@ -15,6 +15,7 @@ export default function Home() {
     getQuote();
   }, []);
 
+
   function getQuote() {
     fetch("https://api.chucknorris.io/jokes/random?category=dev", {
       method: "GET",
@@ -56,13 +57,6 @@ export default function Home() {
       <footer>
         <div className='grid justify-center items-center py-4 mt-12 mb-6 font-bold border-2 border-green-500'>Visitor Count: {visitorCount}</div>
       </footer>
-
-      <style jsx>{`
-      `}</style>
-
-      <style jsx global>{`
-      
-      `}</style>
     </div>
   );
 }
