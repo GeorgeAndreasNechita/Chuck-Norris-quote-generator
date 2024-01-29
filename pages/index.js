@@ -30,32 +30,32 @@ export default function Home() {
 
   return (
 
-    <div className="my-16 mx-64 p-8 border-2 border-black">
+    <div className="my-16 mx-64 px-4 border-2 border-green-300 rounded-3xl">
       <Head>
-        <title>Create Next App</title>
+        <title>W&S - Probearbeit - Andreas George Nechita</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <img src="/W&S.png" alt="Vercel" className="flex justify-start w-40" />
-        <div className="grid grid-cols-2 gap-4">
+        {/* W&S logo */}
+        <img src="/W&S.png" alt="W&S logo" className="flex justify-start w-36" />
 
-          <div className="p-4 border grid justify-center items-center">
-             <img src="https://www.watson.ch/imgdb/ceb0/Z1200,1200/3713451117906934" alt="Vercel" className="flex justify-start" />
+        <div className="grid grid-cols-9 gap-4 mx-8 my-4">
+          {/* Col-1 Picture of Chuck Norris */}
+          <div className="grid justify-center items-center col-span-4">
+            <img src="https://www.watson.ch/imgdb/ceb0/Z1200,1200/3713451117906934" alt="Chuck Norris" className="h-80 flex justify-start" />
           </div>
-          <div className="p-4 border grid justify-center items-center">
-            <button className='bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded  mb-0 w-64 justify-self-center' onClick={getQuote}> New Quote</button>
+
+          {/* Col-2 Quote button + Quote  */}
+          <div className="grid justify-center items-center border-2 border-black col-span-5">
+            <button className='w-64 mb-0 py-2 px-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white  border border-blue-500 hover:border-transparent rounded  justify-self-center' onClick={getQuote}> New Quote</button>
             <div className='m-6 font-bold text-center'>{quote}</div>
           </div>
-          <div>
-          </div>
         </div>
-
-
       </main>
 
       <footer>
-        <div className='grid justify-center items-center my-12 font-bold'>Visitor Count: {visitorCount}</div>
+        <div className='grid justify-center items-center py-4 mt-12 mb-6 font-bold border-2 border-green-500'>Visitor Count: {visitorCount}</div>
       </footer>
 
       <style jsx>{`
