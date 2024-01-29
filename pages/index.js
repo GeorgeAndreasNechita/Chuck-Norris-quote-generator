@@ -40,16 +40,16 @@ export default function Home() {
         {/* W&S logo */}
         <img src="/W&S.png" alt="W&S logo" className="flex justify-start w-36" />
 
-        <div className="grid grid-cols-9 gap-4 mx-8 my-4">
+        <div className="grid grid-cols-9 gap-4 my-4">
           {/* Col-1 Picture of Chuck Norris */}
           <div className="grid justify-center items-center col-span-4">
             <img src="https://www.knoxnews.com/gcdn/presto/2018/11/08/USAT/6eeba0d5-e387-4cd1-80bc-740dd3586b07-XXX_E_COMING_ATTRACTIONS_06_WALKER.JPG" className="h-80 flex justify-start" />
           </div>
 
           {/* Col-2 Quote button + Quote  */}
-          <div className="grid justify-center items-center border-2 border-black col-span-5">
+          <div className="grid justify-center items-center col-span-5">
             <button className='w-64 mb-0 py-2 px-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white  border border-blue-500 hover:border-transparent rounded  justify-self-center' onClick={getQuote}> New Quote</button>
-            <div className='m-6 font-bold text-center'>{quote}</div>
+            <div className='m-6 mx-16 font-bold text-center'>{quote}</div>
           </div>
         </div>
       </main>
