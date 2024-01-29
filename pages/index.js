@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
 import React, { useState, useEffect } from "react";
 
 
@@ -23,7 +22,7 @@ export default function Home() {
       .then((response) => response.json())
       .then((data) => {
         setQuote(data.value);
-        console.log(data.value);
+        // console.log(data.value);
       })
       .catch((error) => console.log(error));
   }
