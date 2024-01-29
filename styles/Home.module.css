@@ -80,9 +80,6 @@
   line-height: 1.5;
 }
 
-.logo {
-  height: 10em;
-}
 
 @media (max-width: 600px) {
   .grid {
