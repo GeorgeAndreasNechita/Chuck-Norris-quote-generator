@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    
+
     <div className="m-16 border-2 border-black">
       <Head>
         <title>Create Next App</title>
@@ -12,7 +12,12 @@ export default function Home() {
 
       <main>
 
-      <img src="/W&S.png" alt="Vercel" className="flex justify-start" />
+        <img src="/W&S.png" alt="Vercel" className="flex justify-start" />
+
+        <div className="grid grid-cols-2 gap-4">
+          <div className="p-4 border flex justify-center items-center">Image</div>
+          <div className="p-4 border flex justify-center items-center">Quote</div>
+        </div>
 
 
       </main>
@@ -23,7 +28,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          
+
         </a>
       </footer>
 
