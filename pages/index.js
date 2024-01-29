@@ -4,13 +4,17 @@ import React, { useState, useEffect } from "react";
 
 
 export default function Home() {
-
+  const [visitorCount, setVisitorCount] = useState(0);
   const [quote, setQuote] = useState(null);
 
   useEffect(() => {
-    getQuote();
-  }, [])
+    fetch('/api/visitorCount')
+      .then((response) => response.json())
+      .then((data) => setVisitorCount(data.count))
+      .catch((error) => console.error('Error fetching visitor count:', error));
 
+      getQuote();
+  }, []);
 
   function getQuote() {
     fetch("https://api.chucknorris.io/jokes/random?category=dev", {
@@ -48,6 +52,7 @@ export default function Home() {
       </main>
 
       <footer>
+      Visitor Count: {visitorCount}
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
