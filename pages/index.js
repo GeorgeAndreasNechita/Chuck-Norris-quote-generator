@@ -37,7 +37,7 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-4">
           <div className="p-4 border grid justify-center items-center">        <img src="https://www.martin-missfeldt.de/images-pictures/time-lapsed-videos/cool-chuck-norris-maschinenpistole-jeans.jpg" alt="Vercel" className="flex justify-start" /></div>
           <div className="p-4 border grid justify-center items-center">
-            <button className='bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded m-6 mb-0' onClick={getQuote}> New Quote</button>
+            <button className='bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded  mb-0 w-64 justify-self-center' onClick={getQuote}> New Quote</button>
             <div className='m-6 font-bold text-center'>{quote}</div>
           </div>
           <div>
