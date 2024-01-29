@@ -43,7 +43,7 @@ export default function Home() {
         <div className="grid grid-cols-9 gap-4 mx-8 my-4">
           {/* Col-1 Picture of Chuck Norris */}
           <div className="grid justify-center items-center col-span-4">
-            <img src="https://www.watson.ch/imgdb/ceb0/Z1200,1200/3713451117906934" alt="Chuck Norris" className="h-80 flex justify-start" />
+            <img src="https://www.knoxnews.com/gcdn/presto/2018/11/08/USAT/6eeba0d5-e387-4cd1-80bc-740dd3586b07-XXX_E_COMING_ATTRACTIONS_06_WALKER.JPG" className="h-80 flex justify-start" />
           </div>
 
           {/* Col-2 Quote button + Quote  */}
