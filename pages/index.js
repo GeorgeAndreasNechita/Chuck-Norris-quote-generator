@@ -7,6 +7,11 @@ export default function Home() {
 
   const [quote, setQuote] = useState(null);
 
+  useEffect(() => {
+    getQuote();
+  }, [])
+
+
   function getQuote(){
       fetch("https://api.chucknorris.io/jokes/random?category=dev", {
         method: "GET",
@@ -18,8 +23,6 @@ export default function Home() {
         })
         .catch((error) => console.log(error));
   }
-
-
 
   return (
 
