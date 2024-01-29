@@ -31,3 +31,6 @@ yarn-error.log*
 
 #database
 /prisma/*.db
+
+#ts file that shouldn't be edited
+next-env.d.ts
