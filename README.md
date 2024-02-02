@@ -8,9 +8,11 @@ The complexity in this project came with the fact that I have never used Next.js
 
 ![image002](https://github.com/GeorgeAndreasNechita/Chuck-Norris-quote-generator/assets/56613283/da65bc54-64b4-48f5-94e9-802a0a9ca95a)
 
-A random quote from the "dev" category had to be drawn from https://api.chucknorris.io/ via API. It should be possible to replace the quote with a new random one using a button.
-
-The number of visitors is displayed on the footer.
+Instructions:
+1. It should look like this drawn sketch
+2. A random quote from the "dev" category had to be drawn from https://api.chucknorris.io/ via API.
+3. It should be possible to replace the quote with a new random one using a button.
+4. The number of visitors is displayed on the footer.
 
 This is the final result. I also made it responsible using tailwind classes.
 
