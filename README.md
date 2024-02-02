@@ -15,3 +15,9 @@ The number of visitors is displayed on the footer.
 This is the final result. I also made it responsible using tailwind classes.
 
 ![chuck-norris-quote-generator](https://github.com/GeorgeAndreasNechita/Chuck-Norris-quote-generator/assets/56613283/8f7fd664-254f-4df9-b4e4-cae6e843ca1a)
+
+How to use:
+1. Clone the project
+2. Run npm install
+3. Run npx prisma db push
+3. Run npm run dev
