@@ -12,4 +12,4 @@ The number of visitors is displayed on the footer.
 
 This is the final result. I also made it responsible using tailwind classes.
 
-<img width="960" alt="chuck-norris-quote-generator" src="https://github.com/GeorgeAndreasNechita/Chuck-Norris-quote-generator/assets/56613283/6d03249b-371a-4bad-a73f-4d20b03ec527">
+![chuck-norris-quote-generator](https://github.com/GeorgeAndreasNechita/Chuck-Norris-quote-generator/assets/56613283/8f7fd664-254f-4df9-b4e4-cae6e843ca1a)
