@@ -32,13 +32,13 @@ export default function Home() {
 
     <div className="my-16 sm:mx-6 md:mx-32 lg:mx-64 xl:mx-64 2xl:mx-96 px-4 border-2 border-green-300 rounded-3xl">
       <Head>
-        <title>W&S - Probearbeit - Andreas George Nechita</title>
+        <title>Probearbeit - Andreas George Nechita</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        {/* W&S logo */}
-        <img src="/W&S.png" alt="W&S logo" className="flex justify-start w-32 sm:w-36 md:w-36" />
+        {/* Logo */}
+        <img src="https://www.mintformations.co.uk/blog/wp-content/uploads/2020/05/shutterstock_583717939.jpg" alt="logo" className="flex justify-start w-32 sm:w-36 md:w-36" />
 
         <div className="grid grid-cols-9 md:gap-4 my-4 sm:mx-16">
           {/* Col-1 Picture of Chuck Norris */}
