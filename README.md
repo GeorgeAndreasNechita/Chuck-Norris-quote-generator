@@ -1,7 +1,9 @@
 Small and simple test project I was requested to do as a coding assesment for a job position.
 
 This is the schema I got and the technology stack I had to use was the following:
+
 Next.js + React, Tailwind, Prisma
+
 The complexity in this project came with the fact that I have never used Next.js, React or Prisma, and had to learn enough to complete this project.
 
 ![image002](https://github.com/GeorgeAndreasNechita/Chuck-Norris-quote-generator/assets/56613283/da65bc54-64b4-48f5-94e9-802a0a9ca95a)
